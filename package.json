@@ -4,7 +4,7 @@
   "description": "preparing ",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "node server.js --port 3000"
   },
   "author": "github.com/tidalu",
   "license": "ISC"
