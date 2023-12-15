@@ -1,0 +1,11 @@
+{
+  "name": "javascript-dom",
+  "version": "1.0.0",
+  "description": "preparing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "github.com/tidalu",
+  "license": "ISC"
+}
