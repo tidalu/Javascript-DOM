@@ -1,7 +1,7 @@
 // Your JavaScript code goes here
 
 const myList = document.getElementById('myList');
-// it takes two Elements , one is an elemnt to insert before it, second el is the actual element to insert ,
+// it takes two Elements , second is an elemnt to insert before it, first el is the actual element to insert ,
 
 const pearsitem = document.getElementById('pearsitem');
 
