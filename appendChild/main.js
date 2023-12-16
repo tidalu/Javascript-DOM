@@ -8,3 +8,5 @@ for (const fr of list) {
   li.textContent = fr;
   myM?.appendChild(li);
 }
+
+// append method after this line
