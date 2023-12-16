@@ -2,23 +2,41 @@
 
 ```
 document.createElement('li')
+
 li.setAttribute('key', 'value')
+
 li.textContent = "nothing here"
+
 document.createDocumentFragment()
+
 fragment.appedchild(li)
+
 document.appendChild(fragment)
+
 li.classList.add("myClass")
+
 li.classList.replace("animation")
+
 li.classList.toggle('animation')
+
 li.classList.remove('animation')
+
 li.setAttribute('data-game', 'this is data set value')
+
 li.dataset.game = 'i am newly set value'
+
 document.createElement('p')
+
 document.createElement('h1')
+
 li.append(p, h1)
+
 document.createElement('span')
+
 li.insertBefore(li.firstChild, span)
+
 let clone = li.cloneNode( true ) // true means clone all the children
+
 
 
 windowParent returns the parent window mainly whenwe are using iframe with another pages also, with windowParent  we can access to the parent window and its accessibilities within the child one ,
@@ -43,11 +61,15 @@ we can change the title from js, with document.title
 bubbling and capturing events, the difference is where is :
 
     baba.addEventListener('click', () => {
+
         console.log('I am a parent');
+
     });
 
     child.addEventListener('click', () => {
+
         console.log('I am a child');
+
     });
 
     there bubbing is happeing  , when we click on the child first child's function second parent's event function is triggered
