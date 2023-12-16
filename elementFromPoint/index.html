@@ -5,8 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .outer {
+            width: 200px;
+            height: 120px;
+            background: #aaaaaa;
+            padding: 20px;
+        }
+
+        .inner {
+            width: 80px;
+            height: 80px;
+            background: #009578;
+            border: 2px solid white;
+            pointer-events: none;
+        }
+    </style>
 </head>
 <body>
+    <h1><code>elementFromPoint()</code> method</h1>
+    <ul>
+        <li>Allows you to find the top most element given an (x, y) position</li>
+        <li>can probably code in handy when trying to work with an existing library or writing a new one </li>
+    </ul>
+    <hr>
+
+<div class="outer">
+    <div class="inner"></div>
+</div>
+
+
     <script src="main.js"></script>
 </body>
 </html>
